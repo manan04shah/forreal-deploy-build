@@ -25,8 +25,8 @@ export default function Output() {
     useEffect(() => {
         // Fetch the uploaded image URL from localStorage and set it to the state
         let url = localStorage.getItem("imageUrl");
-        if(url == null) {
-            url = '/panda.svg';
+        if (url == null) {
+            url = "/panda.svg";
         }
         setImageUrl(url);
     }, []);
@@ -38,7 +38,7 @@ export default function Output() {
                 <div className="h-full w-full flex flex-col items-center justify-center">
                     {/* Use imageUrl as the src attribute of the img tag */}
                     <img
-                        src='/panda.svg'
+                        src={type === "audio" ? "/audioPage/audioThree.svg" : "/panda.svg"}
                         className="h-1/4 md:h-3/5 my-5"
                         alt="Uploaded Image"
                     />
