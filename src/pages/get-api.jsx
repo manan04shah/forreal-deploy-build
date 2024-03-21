@@ -17,7 +17,7 @@ const GetApi = () => {
             return alert("Please enter your name to get the API key.");
         try {
             const response = await axios.post(
-                "https://f7c3-136-233-9-98.ngrok-free.app/api_keys",
+                "https://0ac8-136-233-9-98.ngrok-free.app/api_keys",
                 {
                     owner: inputText,
                     is_active: true,

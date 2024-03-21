@@ -45,12 +45,12 @@ export default function Navbar() {
             </div>
 
             <div
-                className={`fixed top-0 left-0 h-screen w-64 bg-black shadow-md z-10 transition-all duration-300 ${
+                className={`fixed top-0 left-0 h-screen w-64 bg-black shadow-md z-20 transition-all duration-300 ${
                     showSidebar ? "translate-x-0" : "-translate-x-full"
                 }`}
             >
                 <div className="text-white p-10 pt-20">
-                    <div className="mb-4">
+                    <div className="mb-4 z-100">
                         <Link to="/">Check Image</Link>
                     </div>
                     <div className="mb-4">

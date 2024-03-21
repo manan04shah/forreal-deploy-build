@@ -29,7 +29,7 @@ export default function Docs() {
                 <p className="text-justify text-wrap">
                     The base URL for the ForReal. API is
                     <code className="text-wrap">
-                        &nbsp;https://cf67-136-233-9-98.ngrok-free.app.
+                        &nbsp;https://0ac8-136-233-9-98.ngrok-free.app.
                     </code>{" "}
                     You can append the endpoint to this base URL to make
                     requests.
@@ -86,7 +86,7 @@ export default function Docs() {
                 </p>
                 <pre className="text-left bg-[#262626] p-2 rounded-lg mt-2 text-wrap">
                     {`POST /classify HTTP/1.1
-URL: https://cf67-136-233-9-98.ngrok-free.app
+URL: https://0ac8-136-233-9-98.ngrok-free.app
 Content-Type: application/json
 Authorization: Bearer YOUR_API_KEY
 

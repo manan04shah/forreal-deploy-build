@@ -1,5 +1,4 @@
 import Navbar from "../components/navbar";
-import Footer from "../components/footer";
 
 export default function Landing() {
     return (
@@ -110,7 +109,6 @@ export default function Landing() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 }

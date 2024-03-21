@@ -49,7 +49,7 @@ export default function UploadButton({
         setisDrag("");
         if (type == "audio") {
             axios
-                .post("https://f7c3-136-233-9-98.ngrok-free.app/classifyaudio", formData, {
+                .post("https://0ac8-136-233-9-98.ngrok-free.app/classifyaudio", formData, {
                     headers: {
                         "Content-Type": "multipart/form-data",
                     },
@@ -72,7 +72,7 @@ export default function UploadButton({
                 });
         } else if (type == "image") {
             axios
-                .post("https://f7c3-136-233-9-98.ngrok-free.app/classifyimage", formData, {
+                .post("https://0ac8-136-233-9-98.ngrok-free.app/classifyimage", formData, {
                     headers: {
                         "Content-Type": "multipart/form-data",
                     },
